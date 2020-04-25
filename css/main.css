@@ -96,51 +96,66 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: black;
   height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Bree Serif', serif;
+  color: white;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
 }
 
 header,
 footer {
-  background-color: #222;
+  font-size: 2.5em;
+  color: blueviolet;
+  background-color: black;
   height: 80px;
   width: 100%;
+  text-align: left;
+  padding-left: 2em;
 }
 
+
+
 main {
-  background-color: #ccc;
+  background-color: black;
+  background-image: url('../img/computer.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
   height: 250px;
   width: 100%;
+  text-align: center;
 }
 
 header,
 footer,
 main {
   display: flex;
-  justify-content: center;
-  align-items: center;
+
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
 }
-
+header {
+    border: .25em groove rebeccapurple;
+}
 #div-1,
 #div-2,
 #div-3 {
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: black;
   line-height: 1.5em;
-  font-size: 1.25em;
-  height: auto;
+  font-size: 1.2em;
+  background-color: lavender;
+  border: .5em groove rebeccapurple;
+  text-align: center;
+  height: 300px;
 }
 
 .wrapper span {
